@@ -4,6 +4,7 @@ using Demos.Demos;
 using Demos.Demos.Cars;
 using Demos.Demos.Characters;
 using Demos.Demos.Dancers;
+using Demos.Demos.LargeWorld;
 using Demos.Demos.Sponsors;
 using Demos.Demos.Tanks;
 using Demos.SpecializedTests;
@@ -71,6 +72,7 @@ public class DemoSet
         AddOption<CollisionQueryDemo>();
         AddOption<SolverContactEnumerationDemo>();
         AddOption<CustomVoxelCollidableDemo>();
+        AddOption<LargeWorldDemo>();
         AddOption<BlockChainDemo>();
         AddOption<SponsorDemo>();
     }
